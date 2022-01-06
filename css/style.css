@@ -7,18 +7,34 @@ body {
   font-family: Poppins;
   font-size: 16px;
 }
-#banner-container {
+#banner-container,
+#first-story-container,
+#second-story-container {
   width: 85%;
   display: flex;
-  margin: 60px auto 0;
+  margin: 80px auto 0;
 }
-.left {
+.left,
+.right {
   width: 48%;
+}
+.left,
+.story-img-container,
+#second-story-container .story-text-container,
+.contact-img {
   margin-right: 2%;
+}
+.right,
+.story-text-container,
+.contact-form,
+#second-story-container .story-img-container {
+  margin-left: 2%;
+}
+.left,
+.story-text-container {
   padding-top: 6%;
 }
 .right {
-  width: 48%;
   margin-left: 2%;
 }
 .title {
@@ -68,13 +84,10 @@ body {
   display: block;
   margin: auto;
 }
-#my-mission-container {
+#my-mission-container,
+#contact-container {
   width: 85%;
   margin: 62px auto 0;
-}
-.my-mission-title {
-  width: 100%;
-  margin: auto;
 }
 .my-mission-title h2 {
   text-align: center;
@@ -91,14 +104,14 @@ body {
 .three-col {
   width: 32%;
   margin-right: 2%;
+  border-radius: 26px;
+  padding: 45px 32px;
 }
 .three-col:last-child {
   margin-right: 0;
 }
 .mission {
-  padding: 45px 32px;
   background-color: rgba(79, 157, 166, 0.1);
-  border-radius: 26px;
 }
 .mission-icon {
   width: 141px;
@@ -118,40 +131,19 @@ body {
   color: #424242;
 }
 .vission {
-  padding: 45px 32px;
   background-color: rgba(255, 89, 89, 0.1);
-  border-radius: 26px;
 }
 .goal {
-  padding: 45px 32px;
   background-color: #fff4d6;
-  border-radius: 26px;
-}
-#first-story-container,
-#second-story-container {
-  width: 85%;
-  margin: 86px auto 0;
-  display: flex;
 }
 .story-img-container,
 .contact-img {
   width: 39%;
-  margin-right: 1%;
 }
+
 .story-text-container,
 .contact-form {
   width: 59%;
-  margin-left: 1%;
-  padding-top: 4%;
-}
-#second-story-container .story-text-container {
-  width: 59%;
-  margin-right: 1%;
-  padding-top: 4%;
-}
-#second-story-container .story-img-container {
-  width: 39%;
-  margin-left: 1%;
 }
 .story-img {
   width: 450px;
@@ -169,7 +161,7 @@ body {
   margin: 80px auto 0;
 }
 .contact-img img {
-  width: 500px;
+  width: 520px;
 }
 .contact-form input[type="text"],
 .contact-form input[type="email"],
@@ -209,8 +201,6 @@ footer {
   padding: 3% 0;
   margin-top: 86px;
   background-color: #0b0d17;
-}
-.footer-text {
   color: #fff;
   text-align: center;
 }
