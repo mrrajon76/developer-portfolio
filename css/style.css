@@ -10,7 +10,7 @@ body {
 #banner-container {
   width: 85%;
   display: flex;
-  margin: 50px auto 0;
+  margin: 60px auto 0;
 }
 .left {
   width: 48%;
@@ -43,8 +43,7 @@ body {
   line-height: 28px;
   color: #3e3e3e;
 }
-.btn,
-.contact-form input[type="submit"] {
+.btn {
   display: inline-block;
   margin-top: 19px;
   text-decoration: none;
