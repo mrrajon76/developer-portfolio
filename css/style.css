@@ -32,7 +32,7 @@ body {
 }
 .left,
 .story-text-container {
-  padding-top: 6%;
+  padding-top: 4%;
 }
 .right {
   margin-left: 2%;
@@ -79,7 +79,7 @@ body {
 .scroll-text {
   margin-top: 33px;
 }
-.dev-img {
+.right img {
   width: 410px;
   display: block;
   margin: auto;
@@ -113,7 +113,7 @@ body {
 .mission {
   background-color: rgba(79, 157, 166, 0.1);
 }
-.mission-icon {
+.three-col img {
   width: 141px;
   height: 141px;
 }
@@ -145,7 +145,7 @@ body {
 .contact-form {
   width: 59%;
 }
-.story-img {
+.story-img-container img {
   width: 450px;
 }
 .story-text-container h3,
@@ -156,10 +156,10 @@ body {
   font-weight: bold;
   margin-bottom: 17px;
 }
-#contact-container {
+/* #contact-container {
   width: 85%;
   margin: 80px auto 0;
-}
+} */
 .contact-img img {
   width: 520px;
 }
@@ -199,7 +199,7 @@ body {
 }
 footer {
   padding: 3% 0;
-  margin-top: 86px;
+  margin-top: 62px;
   background-color: #0b0d17;
   color: #fff;
   text-align: center;
