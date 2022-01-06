@@ -10,24 +10,30 @@ body {
 #banner-container {
   width: 85%;
   display: flex;
-  margin: 70px auto 0;
+  margin: 50px auto 0;
 }
 .left {
   width: 48%;
-  margin-right: 4% 2% 0 0;
+  margin-right: 2%;
+  padding-top: 6%;
 }
 .right {
   width: 48%;
   margin-left: 2%;
 }
-.main-title {
+.title {
+  padding-left: 13px;
+  margin-bottom: 19px;
+  border-left: 4px solid #ff5959;
+  line-height: 44px;
+}
+.title h1 {
   font-family: "Yeseva One", cursive;
   font-weight: normal;
   font-size: 60px;
-  line-height: 70px;
-  border-left: 4px solid #ff5959;
-  padding-left: 13px;
-  margin-bottom: 15px;
+}
+.title h1:last-child {
+  margin-top: 34px;
 }
 .title-another-color {
   color: #ffad5a;
@@ -57,7 +63,7 @@ body {
   margin-top: 33px;
 }
 .dev-img {
-  width: 380px;
+  width: 410px;
   display: block;
   margin: auto;
 }
@@ -132,12 +138,12 @@ body {
 .story-text-container {
   width: 59%;
   margin-left: 1%;
-  padding-top: 20px;
+  padding-top: 4%;
 }
 #second-story-container .story-text-container {
   width: 59%;
   margin-right: 1%;
-  padding-top: 30px;
+  padding-top: 4%;
 }
 #second-story-container .story-img-container {
   width: 39%;
