@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+  margin: 0;
+  font-family: Poppins;
+  font-size: 16px;
+}
+.banner {
+  width: 85%;
+  margin: auto;
+  margin-top: 5%;
+  display: flex;
+}
+.left {
+  width: 48%;
+  margin-right: 2%;
+}
+.right {
+  width: 48%;
+  margin-left: 2%;
+}
+.main-title {
+  font-family: "Yeseva One", cursive;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 80px;
+  border-left: 4px solid #FF5959;
+  padding-left: 13px;
+  margin-bottom: 15px;
+}
+.title-another-color{
+    color: #FFAD5A;
+}
+.banner-description{
+    font-size: 18px;
+    line-height: 28px;
+    color: #3E3E3E;
+}
+.btn{
+    display: inline-block;
+    margin-top: 19px;
+    text-decoration: none;
+    background-color: #FF5959;
+    padding: 12px 37px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #fff;
+    border: 1px solid #FF5959;
+    border-radius: 5px;
+}
+.btn:hover{
+    color: #FF5959;
+    background-color: #fff;
+}
+.scroll-text{
+    margin-top: 33px;
+}
+.dev-img{
+    width: 58%;
+    display: block;
+    margin: auto;
+}
