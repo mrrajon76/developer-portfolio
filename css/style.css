@@ -12,7 +12,7 @@ body {
 #second-story-container {
   width: 85%;
   display: flex;
-  margin: 80px auto 0;
+  margin: 75px auto 0;
 }
 .left,
 .right {
@@ -30,7 +30,9 @@ body {
 #second-story-container .story-img-container {
   margin-left: 2%;
 }
-.left,
+.left {
+  padding-top: 6%;
+}
 .story-text-container {
   padding-top: 4%;
 }
@@ -156,10 +158,6 @@ body {
   font-weight: bold;
   margin-bottom: 17px;
 }
-/* #contact-container {
-  width: 85%;
-  margin: 80px auto 0;
-} */
 .contact-img img {
   width: 520px;
 }
