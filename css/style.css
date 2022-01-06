@@ -1,17 +1,16 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 body {
   margin: 0;
   font-family: Poppins;
   font-size: 16px;
 }
-.banner {
+#banner-container {
   width: 85%;
-  margin: auto;
-  margin-top: 5%;
   display: flex;
+  margin: 80px auto 0;
 }
 .left {
   width: 48%;
@@ -25,40 +24,98 @@ body {
   font-family: "Yeseva One", cursive;
   font-weight: normal;
   font-size: 60px;
-  line-height: 80px;
-  border-left: 4px solid #FF5959;
+  line-height: 70px;
+  border-left: 4px solid #ff5959;
   padding-left: 13px;
   margin-bottom: 15px;
 }
-.title-another-color{
-    color: #FFAD5A;
+.title-another-color {
+  color: #ffad5a;
 }
-.banner-description{
-    font-size: 18px;
-    line-height: 28px;
-    color: #3E3E3E;
+.banner-description {
+  font-size: 18px;
+  line-height: 28px;
+  color: #3e3e3e;
 }
-.btn{
-    display: inline-block;
-    margin-top: 19px;
-    text-decoration: none;
-    background-color: #FF5959;
-    padding: 12px 37px;
-    line-height: 24px;
-    font-weight: 500;
-    color: #fff;
-    border: 1px solid #FF5959;
-    border-radius: 5px;
+.btn {
+  display: inline-block;
+  margin-top: 19px;
+  text-decoration: none;
+  background-color: #ff5959;
+  padding: 12px 37px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #fff;
+  border: 1px solid #ff5959;
+  border-radius: 5px;
 }
-.btn:hover{
-    color: #FF5959;
-    background-color: #fff;
+.btn:hover {
+  color: #ff5959;
+  background-color: #fff;
 }
-.scroll-text{
-    margin-top: 33px;
+.scroll-text {
+  margin-top: 33px;
 }
-.dev-img{
-    width: 58%;
-    display: block;
-    margin: auto;
+.dev-img {
+  width: 365px;
+  display: block;
+  margin: auto;
+}
+#my-mission-container {
+  width: 85%;
+  margin: 62px auto 0;
+}
+.my-mission-title {
+  width: 100%;
+  margin: auto;
+}
+.my-mission-title h2 {
+  text-align: center;
+  color: #13103a;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 70px;
+}
+.my-mission-description {
+  display: flex;
+  margin: 48px auto 0;
+}
+.three-col {
+  width: 32%;
+  margin-right: 2%;
+}
+.three-col:last-child {
+  margin-right: 0;
+}
+.mission {
+  padding: 45px 32px;
+  background-color: rgba(79, 157, 166, 0.1);
+  border-radius: 26px;
+}
+.mission-icon {
+  width: 141px;
+  height: 141px;
+}
+.item-description {
+  margin-top: 12px;
+}
+.item-description h4 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  color: #000;
+  margin-bottom: 16px;
+}
+.item-description p {
+  color: #424242;
+}
+.vission {
+  padding: 45px 32px;
+  background-color: rgba(255, 89, 89, 0.1);
+  border-radius: 26px;
+}
+.goal {
+  padding: 45px 32px;
+  background-color: #fff4d6;
+  border-radius: 26px;
 }
